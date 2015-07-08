@@ -354,6 +354,12 @@ Main Components
     color: #d38252;
     text-decoration: none;
   }
+  .cd-half-block p.wish {
+    top: auto;
+    bottom: 5rem;
+    font-size: 2rem;
+    color: #d38252;
+  }
   
   .cd-section:nth-of-type(even) .cd-half-block:first-of-type, .cd-section:nth-of-type(odd) .cd-half-block:nth-of-type(2) {
     left: 0;
