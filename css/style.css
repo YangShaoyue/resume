@@ -94,15 +94,15 @@ Main Components
 }
 
 .cd-section .description {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  left: 55%;
-  top: 12%;
-  height: 15rem;
-  line-height: 2;
-  color: rgba(255,255,255,0.8);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 55%;
+    top: 12%;
+    height: 15rem;
+    line-height: 2;
+    color: rgba(255,255,255,0.8);
 }
 
 @media only screen and (min-width: 768px) {
@@ -279,31 +279,34 @@ Main Components
     border-radius: 1rem;
     position: absolute;
     left: 10.1rem;
-    top: 0.5rem;
+    top: 0.45rem;
   }
   .cd-half-block .techs ul li span.css {
-    top: 4.2rem;
+    top: 4.1rem;
 
   }
   .cd-half-block .techs ul li span.javascript {
-    top: 7.9rem;
+    top: 7.8rem;
     width: 16rem;
   }
   .cd-half-block .techs ul li span.jquery {
-    top: 11.5rem;
+    top: 11.45rem;
     width: 16rem;
   }
   .cd-half-block .techs ul li span.wordpress {
-    top: 15.2rem;
+    top: 15.1rem;
     width: 14rem;
   }
   .cd-half-block .techs ul li span.bootstrap {
-    top: 18.9rem;
+    top: 18.8rem;
     width: 10rem;
   }
   .cd-half-block h2.blog-site {
+    position: absolute;
+    top: 10%;
     font-size: 2rem;
-    color: #f77e75;
+    color: #996BB8;
+    font-weight: bold;
   }
   .cd-half-block h2.blog-site a {
     color: #6b7178;
@@ -316,7 +319,8 @@ Main Components
     position: absolute;
     top: 50%;
     font-size: 2rem;
-    color: #f77e75;
+    color: #996BB8;
+    font-weight: bold;
   }
   .cd-half-block p.wordpress-desc {
     top: 59%;
