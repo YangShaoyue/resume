@@ -74,7 +74,7 @@ Main Components
   top: 40%;
   left: 20%;
   height: 30%;
-  width: 32rem;
+  width: 37rem;
 }
 
 .cd-section ul li {
@@ -84,7 +84,7 @@ Main Components
 
 .cd-section ul li span {
   display: inline-block;
-  width: 7rem;
+  width: 8rem;
   text-align: right;
   margin-right: 0.6rem;
 }
@@ -229,8 +229,7 @@ Main Components
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    width: 100%;
-    padding: 0 30%;
+    width: 72%;
     font-size: 1.7rem;
   }
   .cd-half-block p.fortune {
@@ -264,14 +263,42 @@ Main Components
     color: #a7aa7d;
   }
   .cd-half-block .techs ul li span.total {
+    position: relative;
     display: inline-block;
     width: 28rem;
     height: 1rem;
     background-color: rgba(135, 158, 196, 0.3);
     border-radius: 1rem;
   }
-
-  .cd-half-block .techs ul li span.own {
+  .cd-half-block .techs ul li span.total:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 20rem;
+    height: 1rem;
+    left: 0;
+    top: 0;
+    background: rgba(135, 158, 196, 0.8);
+    border-radius: 1rem;
+  }
+  .cd-half-block .techs ul li span.total.javascript:before {
+    width: 16rem;
+  }
+  .cd-half-block .techs ul li span.total.jquery:before {
+    width: 16rem;
+  }
+  .cd-half-block .techs ul li span.total.wordpress:before {
+    width: 14rem;
+  }
+  .cd-half-block .techs ul li span.total.bootstrap:before {
+    width: 10rem;
+  }
+  .cd-half-block p.website-ability {
+    top: auto;
+    bottom: 0;
+    width: 75%;
+  }
+  /*.cd-half-block .techs ul li span.own {
     display: inline-block;
     width: 20rem;
     height: 1rem;
@@ -300,7 +327,7 @@ Main Components
   .cd-half-block .techs ul li span.bootstrap {
     top: 18.8rem;
     width: 10rem;
-  }
+  }*/
   .cd-half-block h2.blog-site {
     position: absolute;
     top: 10%;
